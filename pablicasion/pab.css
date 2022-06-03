@@ -1,0 +1,591 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* transition: all 0.7s; */
+    font-weight: 600;
+}
+::-webkit-scrollbar {
+    width: 0;
+}
+
+
+
+.vit_ststusHeadrModal,
+.vit_aftorHeadrModal,
+.vit_lickUserHeadrModal{
+    background: #d1d1d1;
+}
+
+.vit_imgIcon,
+.vit_icon_item {
+    filter: invert(1);
+    transition: all 0.4s;
+}
+
+.vit_f-awaContact img{
+    filter: invert(0);
+    transition: all 0.4s;
+}
+
+
+
+
+
+a{
+    text-decoration: none;
+    color: #1b1b1b;
+}
+button{
+    border: none;
+    background: none;
+}
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.vit_container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.vit_header {
+    width: 100%;
+    height: fit-content;
+    display: block;
+    position: fixed;
+    min-height: 5em;
+    background: rgb(30, 30, 30);
+    z-index: 500;
+}
+.vit_header_nav {
+    display: flex;
+    padding: 2% 0;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.vit_text_acaunt {
+    margin: 0.5em 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.vit_text_acaunt p {
+    width: fit-content;
+    padding-right: 0.4em;
+    
+}
+.vit_angleDown img{
+    width: 1em;
+
+    height: 100%;
+    align-items: center;
+}
+.vit_header_icon {
+    display: flex;
+}
+/* .vit_icon_add {
+}
+
+.vit_icon_menu {
+} */
+
+.vit_imgIcon{
+    width: 1.7em;
+    margin: 0.3em;
+}
+
+
+.vit_story{
+    margin: 0 0 5em 0;
+    transition: all 0.5s;
+}
+
+
+
+/* content */
+
+.vit_story_wrap{
+    padding-top: 5em;
+    overflow: hidden;
+}
+.vit_pipl{
+    padding: 1em 0;
+    border-bottom: 1px solid rgb(201, 201, 201);
+    overflow: scroll;
+}
+
+.vit_pipl_wrap{
+    width: 100%;
+    height: 5em;
+    display: flex;
+}
+.vit_pipl_item{
+    width: 4.5em;
+    margin: 0em 0.5em 0 0.5em;
+}
+.vit_pipl_item img {
+    width: 3.7em;
+    height: 3.7em;
+    border-radius: 100%;
+}
+
+/* .vit_story {
+} */
+.vit_story_pipl {
+    margin: 0 0 1em 0;
+}
+.vit_story_pipl-header {
+    height: 3.5em;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.vit_story_pipl-img img {
+    width: 100%;
+}
+.vit_pipl_list {
+    display: flex;
+    align-items: center;
+    
+}
+.vit_pipl_list img{
+    width: 1.7em;
+    height: 1.7em;
+    border-radius: 100%;
+    margin-right: 0.4em;
+}
+
+.vit_ava_newHistory{
+    border: 2px solid red;
+}
+/* .vit_pipl_list span{
+} */
+.vit_pipl_menu {
+    width: 1.3em;
+    height: 1.3em;
+}
+.vit_pipl_menu img {
+    width: 100%;
+    height: 100%;
+}
+
+.vit_story_pipl-icon {
+    display: flex;
+    margin: 0.3em auto;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.vit_pipl-icon_left {
+    display: flex;
+    width: 8em;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.vit_icon_item {
+    width: 1.7em;
+    height: 1.7em;
+}
+/* .vit_pipl-icon_right {
+} */
+
+.vit_story_pipl-comen {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.vit_story_pipl-comen span{
+    font-size: 0.7em;
+}
+/* .vit_comment {
+} */
+
+.vit_addComment {
+    margin: 0.7em 0 0.3em 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+.vit_addComment img {
+    width: 1.7em;
+    margin-right: 0.5em;
+    height: 1.7em;
+    border-radius: 100%;
+}
+.vit_addComment span {
+    height: 1.7em;
+}
+
+.vit_modalWrap {
+    width: 80%;
+    margin: 5% auto;
+    height: 100%;
+}
+
+.vit_BottomModalWrap {
+    width: 80%;
+    margin: -10% auto;
+    height: 100%;
+}
+
+.vit_m-header{
+    margin-top: 6em;
+}
+
+.vit_m-header_close img{
+    width: 1.7em;
+    height: 1.7em;
+}
+
+
+.vit_iconClosComments{
+    margin: 1em;
+    filter: invert(1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.vit_footer {
+    width: 100%;
+    height: 4em;
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+
+}
+
+.vit_footer_menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 4em;
+}
+
+.vit_footer_link img {
+    width: 1.7em;
+    
+}
+
+.vit_f-awaContact img {
+    width: 2.4em;
+    height: 2.4em;
+    border: 3px solid red;
+    border-radius: 100%;
+}
+
+
+
+/* модальные окна */
+/* headerHome */
+.vit_modalAcaunts{
+    background: #d1d1d1;
+    width: 100%;
+    min-height: 95vh;
+    position: fixed;
+    z-index: 105;
+    transition: all 0.5s;
+    top: -100%;
+    right: -100%;;
+}
+
+
+.vit_modalAddPhoto{
+    background: #d1d1d1;
+    width: 100%;
+    min-height: 95vh;
+    position: fixed;
+    z-index: 105;
+    transition: all 0.5s;
+    top: -100%;
+    right: -100%;
+}
+
+.vit_modalMenuMessList{
+    background: #d1d1d1;
+    width: 100%;
+    min-height: 95vh;
+    position: fixed;
+    z-index: 105;
+    transition: all 0.5s;
+    top: -100%;
+    right: -100%;
+}
+
+.vit_modalItem{
+    width: 100%;
+    padding-top: 4em;
+}
+
+.vit_modalAdd{
+    top: 0;
+    right: auto;
+    max-width: 800px;
+    position: fixed;
+    height: 100vh;
+}
+
+.vit_iconRotate180{
+    transform: rotate(180deg)
+}
+.vit_iconRotate90{
+    transform: rotate(90deg)
+}
+
+.vit_wrapsModalBlok{
+    display: block;
+}
+.vit_modalAddList{
+    /* background: rgb(211, 211, 211); */
+    width: 100%;
+    min-height: 98vh;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    z-index: 999;
+    /* transition: all 0.5s; */
+}
+
+
+.vit_story-header_close img{
+    width: 1.7em;
+    height: 1.7em;
+    position: relative;
+    top: 1.3em;
+    left: 1.3em;
+    filter: invert(1);
+}
+
+
+/* headerHome */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* modal botton */
+
+
+.vit_piplMenuContent,
+.vit_modalPapMesseg,
+.vit_modalComments,
+.vit_modalADDComments{
+    width: 100%;
+    top: 100%;
+    bottom: 0%;
+    position: fixed;
+    background: #d1d1d1;
+    border-radius: 10% 10% 0 0;
+    transition: all 0.4s;
+    z-index: 997;
+    max-width: 800px;
+}
+
+
+
+
+.vit_none{
+    transition: all 0.7s;
+    opacity: 0;
+    display: none;
+}
+
+
+
+/* Открытие модал */
+.vit_bottomModalAdd{
+    width: 100%;
+    top: 50%;
+}
+/* Открытие модал */
+
+
+
+
+.vit_wrapsModalRemove{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background:#0c0c0c;
+    z-index: 100;
+    opacity: 0.7;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* modal botton */
+
+@media  (min-width: 800px) {
+
+    .vit_modalPapMesseg, 
+    .vit_modalComments {
+        padding-top: 2em;
+        max-width: 800px;
+    }
+
+
+
+    .body-container{
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .vit_header {
+        max-width: 800px;
+    }
+    .vit_story_wrap {
+        padding: 5em 0 5em 0;
+    }
+    .vit_footer {
+        max-width: 800px;
+    }
+}
+
+
+
+/* tems */
+
+.colorDark{
+    color: #d1d1d1;
+    transition: all 0s;
+}
+.colorWhite{
+    color: #1b1b1b;
+    transition: all 0s;
+}
+
+
+
+
+
+.dark_tem_body{
+    background: #2b2b2b;
+    color: #d1d1d1;
+}
+.white_tem_body{
+    background:#ffffff;
+    color: #1b1b1b;
+}
+
+
+.dark_p{
+    color: #d1d1d1;
+}
+.white_p{
+    color: #1b1b1b;
+}
+
+.dark_fil1{
+    filter: invert(1);
+    transition: all 0.4s;
+}
+.white_fil0{
+    filter: invert(0);
+    transition: all 0.4s;
+}
+
+
+
+.dark_tem{
+    background: #1b1b1b;
+    color: #d1d1d1;
+}
+
+
+
+.white_tem{
+    background: #d1d1d1;
+    color: #1b1b1b;
+}
+
+
+.vit_icon_item_red{
+    filter: invert(0);
+    filter:  drop-shadow(2px 4px 6px black);
+}
+

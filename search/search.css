@@ -1,0 +1,191 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all 0.4s;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+}
+button{
+    border: none;
+    background: none;
+}
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.vit_container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.body-container{
+    background: #333;
+    color: #d1d1d1;
+}
+
+.vit_search {
+    width: 100%;
+    height: fit-content;
+    display: block;
+    position: fixed;
+    min-height: 5em;
+    background: rgb(30, 30, 30);
+    z-index: 500;
+}
+
+.vit_btn_thems{
+    text-align: center;
+    margin: 0.4em auto;
+}
+
+.vit_header_search {
+    margin: 0.5em 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.vit_header_search_input{
+    width: 100%;
+    height: 2.5em;
+    border-radius: 10px;
+    padding: 0.3em;
+    border: none;
+    /* background: #cdcdcd; */
+
+}
+
+
+/* content */
+
+.vit_actual_histori {
+    padding-top: 5em;
+}
+
+.vit_histori_grid {
+    height: 100vh;
+}
+.vit_grid_lenta {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.vit_grid_my {
+
+}
+
+.vit_lenta_item {
+    width: 31%;
+    margin: 1%;
+    height: 100%;
+}
+
+.vit_myPhoto {
+
+}
+
+.vit_lenta_link img {
+    width: 100%;
+    height: 100%;
+    min-height: 7em;
+    padding: 0.2em;
+    border-radius: 5px;
+}
+
+.vit_myVideo {
+}
+
+
+.vit_photoIsMy {
+}
+
+/* content */
+.vit_footer {
+    width: 100%;
+    height: 4em;
+    position: fixed;
+    bottom: 0;
+    height: fit-content;
+    background: rgb(30, 30, 30);
+    z-index: 500;
+}
+
+.vit_footer_menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 4em;
+}
+
+
+.vit_footer_link img {
+    width: 1.7em;
+}
+
+
+.vit_f-awaContact img {
+    width: 2.4em;
+    height: 2.4em;
+    border: 3px solid red;
+    border-radius: 100%;
+}
+
+
+
+/* tems */
+
+
+
+.white_tem_body{
+    background:#ffffff;
+    color: #1b1b1b;
+}
+.white_tem{
+    background: #d1d1d1;
+    color: #1b1b1b;
+
+}
+
+.dark_fil1{
+    filter: invert(1);
+    transition: all 0.4s;
+}
+.white_fil0{
+    filter: invert(0);
+    transition: all 0.4s;
+}
+
+
+
+
+/* tems */
+
+@media  (min-width: 800px) {
+    .body-container{
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .vit_search {
+        max-width: 800px;
+    }
+    .vit_story_wrap {
+        padding: 5em 0 5em 0;
+    }
+    .vit_footer {
+        max-width: 800px;
+    }
+}

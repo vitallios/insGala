@@ -1,0 +1,177 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    /* color: #1b1b1b; */
+}
+button{
+    border: none;
+    background: none;
+}
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.vit_container{
+    width: 90%;
+    margin: 0 auto;
+}
+body{
+    /* background: rgb(252, 252, 252); */
+}
+.body-container{
+    background: #333;
+    color: #d1d1d1;
+}
+
+
+/* content */
+.vit_info {
+}
+
+.vit_info_item {
+    margin-bottom: 4em;
+}
+.vit_info_li{
+    display: flex;
+    height: 4em;
+    width: 100%;
+    margin: 0 0 1em 0;
+    padding: 1em 0 2em 0;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.vit_i-img{
+    width: 1.7em;
+    height: 1.7em;
+    border-radius: 100%;
+    margin-right: 1.4em;
+}
+.vit_i-text{
+    width: 100%; 
+}
+
+.vit_i-like-photo {
+    border-radius: 20%;
+    margin: 1em;
+}
+
+.vit_btnStyle{
+    padding: 0.6em;
+    border: 1px solid;
+    border-radius: 3em;
+    cursor: pointer;
+}
+
+/* content */
+
+
+
+
+
+
+
+
+
+.vit_footer {
+    width: 100%;
+    height: 4em;
+    background: rgb(30, 30, 30);
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+}
+
+.vit_footer_menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 4em;
+}
+
+.vit_footer_link img {
+    width: 1.7em;
+    
+}
+
+.vit_f-awaContact img {
+    width: 2.4em;
+    height: 2.4em;
+    border: 3px solid red;
+    border-radius: 100%;
+}
+
+
+/* tems */
+.white_tem_body{
+    background:#ffffff;
+    color: #1b1b1b;
+}
+.dark_tem_body{
+    background: #2b2b2b;
+    color: #ffffff
+}
+
+
+
+.white_tem{
+    background: #d1d1d1;
+    color: #1b1b1b;
+}
+.dark_tem{
+    background: #1b1b1b;
+    color: #b1b1b1;
+}
+
+
+.dark_fil1{
+    filter: invert(1);
+    transition: all 0.4s;
+}
+.white_fil0{
+    filter: invert(0);
+    transition: all 0.4s;
+}
+.dark_filRevert{
+    filter: revert;
+    transition: all 0.4s;
+}
+.white_filRevert{
+    filter: revert;
+    transition: all 0.4s;
+}
+/* tems */
+
+
+
+
+
+
+
+
+
+@media  (min-width: 800px) {
+    .body-container{
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .vit_story_wrap {
+        padding: 5em 0 5em 0;
+    }
+    .vit_footer {
+        max-width: 800px;
+    }
+}
