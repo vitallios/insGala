@@ -1,0 +1,686 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all 0s;
+    font-weight: 600;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.vit_btn_thems{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.vit_iconTemsLabl{
+    width: 1.4em;
+    position: absolute;
+    z-index: 1;
+    transition: all 0.6s;
+        top: 1em;
+}
+
+
+.vit_ststusHeadrModal,
+.vit_aftorHeadrModal,
+.vit_lickUserHeadrModal{
+    background: #d1d1d1;
+}
+/* .vit_m-body, */
+.vit_footer_link img,
+.vit_menu_item  img,
+.vit_imgIcon,
+.vit_angleDown img{
+    filter: invert(1);
+    transition: all 0.4s;
+}
+
+.vit_f-awaContact img{
+    filter: invert(0);
+    transition: all 0.4s;
+}
+
+.vit_m-body{
+    color: #1b1b1b;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+/* .vit_modalItem p{
+    color: #0c0c0c;
+} */
+
+
+
+button{
+    border: none;
+    background: none;
+}
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.vit_container{
+    width: 90%;
+    margin: 0 auto;
+}
+/* body{
+    background: rgb(252, 252, 252); 
+} */
+
+
+.vit_header {
+    width: 100%;
+    height: fit-content;
+    display: block;
+    position: fixed;
+    min-height: 5em;
+    background: rgb(30, 30, 30);
+    z-index: 500;
+    /* box-shadow: 0px 5px 20px #7e7979a1; */
+}
+.vit_header_nav {
+    display: flex;
+    padding: 2% 0;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.vit_text_acaunt {
+    padding: 0.5em 0.5em;
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.vit_text_acaunt p {
+    width: fit-content;
+    padding-right: 0.4em ;
+}
+.vit_angleDown img{
+    width: 1em;
+    height: 100%;
+    align-items: center;
+}
+.vit_header_icon {
+    display: flex;
+    width: 30%;
+    justify-content: flex-end;
+}
+
+.vit_imgIcon{
+    width: 1.7em;
+    margin: 0.3em;
+}
+
+.vit_btn_thems_chek{
+    opacity: 0;
+    width: 2em;
+    height: 2em;
+    z-index: 999;
+}
+
+
+
+
+
+
+
+/* home  */
+
+.vit_home_content {
+    position: relative;
+    padding: 5em 0 5em 0;
+    overflow: hidden;
+    background: rgb(54 54 54);
+}
+.vit_content_header {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    padding: 0.2em;
+}
+.vit_userHeadr {
+    display: flex;
+    width: 96%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 7.5em;
+    height: auto;
+    margin: 0.5em;
+    text-align: center;
+}
+.vit_headerLogo {
+    width: 5em;
+    height: 5em;
+}
+.vit_logo{
+    display: contents;
+}
+.vit_logo img{
+    width: 90%;
+    height: 90%;
+    border-radius: 100%;
+    }
+.vit_userMenu {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.vit_menuItem {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 0 0.7em;
+    overflow: hidden;
+}
+.vit_item {
+    display: flex;
+}
+.vit_item span{
+    margin: 0.4em 1em;
+}
+/* .vit_public {
+}
+.aftor {
+}
+.lickUser {
+} */
+
+.vit_content_btn {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 14px;
+    text-align: center;
+}
+.vit_settingProf{
+    width: 100%;
+}
+.vit_btnSetting {
+    padding: 0.5em;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.vit_content_btn_dop {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin: 0.5em 0;
+}
+
+.vit_dop {
+    overflow: hidden;
+    width: 30%;
+    margin: 0 0.3em;
+    white-space: nowrap;
+}
+/* .vit_dop a{
+    
+}
+.settingRecklama {
+}
+.settingStatus {
+}
+.settingContact {
+} */
+
+/* lenta */
+
+.vit_menu_lenta {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2em 0;
+    height: 5em;
+}
+.vit_menu_item {
+    padding-top: 1em;
+    width: 33%;
+    height: 80%;
+    text-align: center;
+}
+
+
+.vit_menu_item img{
+    width: 1.3em;
+    opacity: 0.5;
+}
+.vit_active{
+    border-bottom: 2px solid black;
+}
+.vit_active img{
+    opacity: 1;
+}
+
+.vit_lenta {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: auto;
+    z-index: 1;
+}
+
+.vit_grids_grid-lenta{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: fit-content;
+    min-height: 27em;
+}
+.vit_grid_lenta {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    display: none;
+    opacity: 0;
+    margin: 0 auto;
+}
+
+.vit_grid_lenta--active{
+    display: flex;
+    opacity: 1;
+}
+.vit_lenta_item {
+    /* border: 1px solid red; */
+    width: 31%;
+    margin: 1%;
+    height: 100%;
+
+    
+}
+.vit_lenta_item img{
+    width: 100%;
+    height: 100%;
+    min-height: 7em;
+    padding: 0.2em;
+    border-radius: 5px; 
+}
+/* .vit_myPhoto {
+}
+.lenta_link {
+}
+.myVideo {
+}
+.photoIsMy {
+}
+.lentaGrid {
+} */
+
+
+.vit_footer {
+    width: 100%;
+    height: 4em;
+    background: rgb(30, 30, 30);
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+    /* box-shadow: 0px 5px 20px #7e7979a1;*/
+} 
+
+.vit_footer_menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 4em;
+}
+/* .vit_footer_li {
+}
+.footer_link {
+    
+} */
+.vit_footer_link img {
+    width: 1.7em;
+    
+}
+
+/* .vit_f-search {
+}
+.footer_li {
+}
+.f-play {
+}
+.f-like {
+} */
+.vit_f-awaContact img {
+    width: 2.4em;
+    height: 2.4em;
+    border: 3px solid #ec4b4b;
+    border-radius: 100%;
+}
+/* .vit_content_actual {
+}
+.content_actual-text {
+} */
+.vit_content_actual-content {
+    display: flex;
+    position: relative;
+    width: 100%;
+    overflow: auto;
+    padding: 1em 0 0 0;
+}
+.vit_content_actual-item {
+    margin: 0 0.3em;
+    transition: all 0.7s;
+}
+.vit_content_actual-link {
+    display: block;
+    width: 4.5em;
+    height: 4.5em;
+    transition: all 0.7s;
+}
+.vit_content_actual-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    transition: all 0.7s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* модальные окна */
+/* headerHome */
+.vit_modalAcaunts{
+    background: #d1d1d1;
+    width: 100%;
+    min-height: 95vh;
+    position: fixed;
+    z-index: 105;
+    transition: all 0.5s;
+    top: -100%;
+    right: -100%;
+}
+
+
+.vit_modalAddPhoto{
+    background: #d1d1d1;
+    width: 100%;
+    min-height: 95vh;
+    position: fixed;
+    z-index: 105;
+    transition: all 0.5s;
+    top: -100%;
+    right: -100%;
+}
+
+.vit_modalMenuHome{
+    background: #d1d1d1;
+    width: 100%;
+    min-height: 95vh;
+    position: fixed;
+    z-index: 105;
+    transition: all 0.5s;
+    top: -100%;
+    right: -100%;
+}
+
+.vit_modalItem{
+    width: 100%;
+    padding-top: 4em;
+}
+
+.vit_m-header{
+    margin-top: 6em;
+}
+
+.vit_modalAdd{
+    top: 0%;
+    right: 0%;
+}
+.vit_iconRotate180{
+    transform: rotate(180deg);
+    transition: all 0.4s;
+}
+.vit_iconRotate90{
+    transform: rotate(90deg);
+    transition: all 0.4s;
+}
+/* headerHome */
+/* userHome-content */
+/* .vit_publicHeadrModal {
+    
+} */
+
+.vit_aftorHeadrModal {
+    /* background: rgb(211, 211, 211); */
+    width: 100%;
+    min-height: 95vh;
+    position: fixed;
+    top: -100%;
+    right: -100%;
+    z-index: 100;
+    transition: all 0.5s;
+}
+.vit_lickUserHeadrModal {
+    /* background: rgb(211, 211, 211); */
+    width: 100%;
+    min-height: 95vh;
+    position: fixed;
+    top: -100%;
+
+    right: -100%;
+    z-index: 100;
+    transition: all 0.5s;
+}
+.vit_ststusHeadrModal{
+    /* background: rgb(211, 211, 211); */
+    width: 100%;
+    min-height: 95vh;
+    position: fixed;
+    top: -100%;
+    right: -100%;
+    z-index: 100;
+    transition: all 0.5s;
+}
+
+.vit_modalWrap {
+    width: 80%;
+    margin: 5em auto;
+    height: 100%;
+}
+/* .vit_m-header {
+}
+.m-body {
+} */
+.vit_m-header_close img{
+    width: 1.7em;
+    height: 1.7em;
+}
+
+.vit_wrapsModalRemove{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background:#0c0c0c;
+    z-index: 100;
+    opacity: 0.7;
+    display: none;
+}
+
+.vit_wrapsModalBlok{
+    display: block;
+}
+
+
+.vit_contentHeaderModal{
+    right: 0%;
+    top: 0%;
+}
+
+/* userHome-content */
+
+/*  */
+.vit_settingModal{
+    background: #d1d1d1;
+    width: 100%;
+    min-height: 95vh;
+    position: fixed;
+    z-index: 105;
+    transition: all 0.5s;
+    top: -100%;
+    right: -100%;
+}
+.vit_settingModaAdd{
+    right: 0%;
+    top: 0;
+    position: absolute;
+}
+/*  */
+
+summary{
+    list-style-type: none;
+}
+
+
+
+
+@media  (min-width: 800px) {
+    .body-container{
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .vit_header {
+        max-width: 800px;
+    }
+    .vit_home_content {
+        padding: 5em 0 5em 0;
+    }
+    .vit_footer {
+        max-width: 800px;
+    }
+
+    /* modal */
+
+    .vit_modalAcaunts{
+        width: 100%;
+        top: 0;
+        padding-top: 2em;
+        position: absolute;
+    }
+
+    .vit_modalMenuHome,
+    .vit_modalAddPhoto {
+        width: 100%;
+        top: 0;
+        padding-top: 2em;
+        position: absolute;
+    }
+
+    .vit_settingProfModal,
+    .vit_contentHeaderModal,
+    .vit_settingRecklamaModal  {
+        width: 100%;
+        top: 0;
+        padding-top: 2em;
+        position: absolute;
+    }
+}
+
+
+
+
+/* tems */
+
+.colorDark{
+    color: #d1d1d1;
+    transition: all 0s;
+}
+.colorWhite{
+    color: #1b1b1b;
+    transition: all 0s;
+}
+
+
+
+
+
+.dark_tem_body{
+    background: #2b2b2b;
+    color: #d1d1d1;
+    
+}
+.white_tem_body{
+    background:#ffffff;
+    color: #1b1b1b;
+    
+}
+
+
+.dark_p{
+    color: #1b1b1b;
+}
+.white_p{
+    color: #1b1b1b;
+}
+
+
+
+.dark_tem{
+    background: #1b1b1b;
+    color: #d1d1d1;
+}
+
+
+
+.white_tem{
+    background: #d1d1d1;
+    color: #1b1b1b;
+}
+
+.none{
+    opacity: 0;
+    top: -3em;
+}
