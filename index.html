@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Home</title>
+</head>
+
+<body>
+
+    <div class="body-container dark_tem">
+        <header class="vit_header">
+            <div class="vit_container">
+                <nav class="vit_header_nav ">
+                    <button class="vit_text_acaunt  vit_iconModal">
+                        <p class="pDark colorDark">userName</p>
+                        <span class="vit_angleDown">
+                            <img class="iconColor colorDark " src="img/angle-small-down.svg" alt="">
+                        </span>
+                    </button>
+
+                    <div class="vit_btn_thems">
+                        <input type="checkbox" id="vit_btn_thems_chek" class="vit_btn_thems_chek">
+                        <img class="vit_iconTemsLabl sun " src="/img/sun-free-icon-sun.svg">
+                        <img class="vit_iconTemsLabl moon none" src="/img/free-icon-font-moon.svg">
+                    </div>
+
+
+                    <ul class="vit_header_icon">
+                        <li class="vit_icon_add vit_iconModal">
+                            <img class="vit_imgIcon vit_iconAdd" id="vit_add" src="img/add.svg" alt="">
+                        </li>
+                        <li class="vit_icon_menu vit_iconModal">
+                            <img class="vit_imgIcon vit_IconHeaderMenu" id="vit_headerMenu" src="img/menu-burger.svg"
+                                alt="">
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+
+        <section class="vit_home_content dark_tem_body ">
+            <!-- modal window -->
+
+            <div class="vit_modalAcaunts">
+                <div class="vit_modalWrap">
+                    <div class="vit_m-header">
+                        <a class="vit_m-header_close">
+                            <img src="img/cross.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="vit_m-body">
+                        body выбр Аккаунта
+                    </div>
+                </div>
+            </div>
+            <div class="vit_modalAddPhoto">
+                <div class="vit_modalWrap">
+                    <div class="vit_m-header">
+                        <a class="vit_m-header_close">
+                            <img src="img/cross.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="vit_m-body">
+                        body выбр фото
+                    </div>
+                </div>
+            </div>
+            <div class="vit_modalMenuHome">
+                <div class="vit_modalWrap">
+                    <div class="vit_m-header">
+                        <a class="vit_m-header_close">
+                            <img src="img/cross.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="vit_m-body">
+                        body menu
+                    </div>
+                </div>
+            </div>
+            <div class="vit_wrapsModalRemove">
+            </div>
+            <!-- modal window -->
+
+
+
+            <div class="vit_container">
+                <div class="vit_content_header">
+                    <div class="vit_userHeadr">
+                        <div class="vit_headerLogo ">
+                            <a class="vit_logo ">
+                                <img src="img/userLogo.png" alt="">
+                                <a class="vit_ststus vit_userHeadrLink">в работе</a>
+                            </a>
+                        </div>
+                        <ul class="vit_userMenu">
+                            <li class="vit_menuItem ">
+                                <a class="vit_public vit_item vit_userHeadrLink">
+                                    <span>345</span>
+                                    <span>Публикаций</span>
+                                </a>
+                            </li>
+                            <li class="vit_menuItem ">
+                                <a class="vit_aftor vit_item vit_userHeadrLink">
+                                    <span>345</span>
+                                    <span>Подписок</span>
+                                </a>
+                            </li>
+                            <li class="vit_menuItem ">
+                                <a class="vit_lickUser vit_item vit_userHeadrLink">
+                                    <span>345</span>
+                                    <span>Подписчиков</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- modal userHeadrModal-->
+                    <div class="vit_ststusHeadrModal">
+                        <div class="vit_modalWrap">
+                            <div class="vit_m-header">
+                                <a class="vit_m-header_close">
+                                    <img src="img/cross.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="vit_m-body">
+                                статус в работе
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="vit_aftorHeadrModal">
+                        <div class="vit_modalWrap">
+                            <div class="vit_m-header">
+                                <a class="vit_m-header_close">
+                                    <img src="img/cross.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="vit_m-body">
+                                body Ваши Подписки
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="vit_lickUserHeadrModal">
+                        <div class="vit_modalWrap">
+                            <div class="vit_m-header">
+                                <a class="vit_m-header_close">
+                                    <img src="img/cross.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="vit_m-body">
+                                body подписанные на вас
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- modal btnUserHeadrModal-->
+
+                    <div class="vit_content_btn">
+                        <a name="settingProf" class="vit_linkSetting vit_btnSetting vit_settingProf">
+                            Редактировать профиль
+                        </a>
+                        <ul class="vit_content_btn_dop">
+                            <li class="vit_btnSetting vit_settingRecklama vit_dop">
+                                <a name="settingRecklama" class="vit_linkSetting settingRecklama">
+                                    Рекламные настройки
+                                </a>
+                            </li>
+
+                            <li class="vit_btnSetting vit_settingStatus vit_dop">
+                                <a name="settingStatus" class="vit_linkSetting settingStatus">
+                                    Статистика
+                                </a>
+                            </li>
+                            <li class="vit_btnSetting vit_settingContact vit_dop">
+                                <a name="settingContact" class="vit_linkSetting settingContact">
+                                    Контакты
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+                    <!-- modal btnUserHeadrModal-->
+                    <div class="vit_settingProfModal vit_settingModal">
+                        <div class="vit_modalWrap">
+                            <div class="vit_m-header">
+                                <a class="vit_m-header_close">
+                                    <img src="img/cross.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="vit_m-body">
+                                settingProfModal
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vit_settingRecklamaModal vit_settingModal">
+                        <div class="vit_modalWrap">
+                            <div class="vit_m-header">
+                                <a class="vit_m-header_close">
+                                    <img src="img/cross.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="vit_m-body">
+                                body settingRecklama
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vit_settingStatusModal vit_settingModal">
+                        <div class="vit_modalWrap">
+                            <div class="vit_m-header">
+                                <a class="vit_m-header_close">
+                                    <img src="img/cross.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="vit_m-body">
+                                body settingStatusModal
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vit_settingContactModal vit_settingModal">
+                        <div class="vit_modalWrap">
+                            <div class="vit_m-header">
+                                <a class="vit_m-header_close">
+                                    <img src="img/cross.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="vit_m-body">
+                                body settingContactModal
+                            </div>
+                        </div>
+                    </div>
+                    <!-- modal userHeadrModal-->
+
+
+                    <!-- actual -->
+                    <div class="vit_content_actual">
+
+                        <details class="vit_content_actual-text">
+                            <summary>Актуальное из истории</summary>
+                            <div class="vit_content_actual-content">
+                                <span class="vit_content_actual-item">
+                                    <a href="/stPipl/percon.html" class="vit_content_actual-link">
+                                        <img src="img/userLogo.png" alt="" class="vit_content_actual-img">
+                                    </a>
+                                </span>
+                                <span class="vit_content_actual-item">
+                                    <a href="/stPipl/percon.html" class="vit_content_actual-link">
+                                        <img src="img/userLogo.png" alt="" class="vit_content_actual-img">
+                                    </a>
+                                </span>
+                                <span class="vit_content_actual-item">
+                                    <a href="/stPipl/percon.html" class="vit_content_actual-link">
+                                        <img src="img/userLogo.png" alt="" class="vit_content_actual-img">
+                                    </a>
+                                </span>
+                                <span class="vit_content_actual-item">
+                                    <a href="/stPipl/percon.html" class="vit_content_actual-link">
+                                        <img src="img/userLogo.png" alt="" class="vit_content_actual-img">
+                                    </a>
+                                </span>
+                                <span class="vit_content_actual-item">
+                                    <a href="/stPipl/percon.html" class="vit_content_actual-link">
+                                        <img src="img/userLogo.png" alt="" class="vit_content_actual-img">
+                                    </a>
+                                </span>
+                                <span class="vit_content_actual-item">
+                                    <a href="/stPipl/percon.html" class="vit_content_actual-link">
+                                        <img src="img/userLogo.png" alt="" class="vit_content_actual-img">
+                                    </a>
+                                </span>
+                                <span class="vit_content_actual-item">
+                                    <a href="/stPipl/percon.html" class="vit_content_actual-link">
+                                        <img src="img/userLogo.png" alt="" class="vit_content_actual-img">
+                                    </a>
+                                </span>
+                                <span class="vit_content_actual-item">
+                                    <a href="/stPipl/percon.html" class="vit_content_actual-link">
+                                        <img src="img/userLogo.png" alt="" class="vit_content_actual-img">
+                                    </a>
+                                </span>
+                                <span class="vit_content_actual-item">
+                                    <a href="/stPipl/percon.html" class="vit_content_actual-link">
+                                        <img src="img/userLogo.png" alt="" class="vit_content_actual-img">
+                                    </a>
+                                </span>
+                                <span class="vit_content_actual-item">
+                                    <a href="/stPipl/percon.html" class="vit_content_actual-link">
+                                        <img src="img/userLogo.png" alt="" class="vit_content_actual-img">
+                                    </a>
+                                </span>
+
+
+
+                            </div>
+                        </details>
+                    </div>
+                    <!-- actual -->
+
+
+
+                </div>
+
+            </div>
+
+
+
+            <div class="vit_menu_lenta">
+                <a class="vit_menu_item vit_listMy vit_active">
+                    <img src="img/grid.svg" alt="">
+                </a>
+                <a class="vit_menu_item vit_listPlay">
+                    <img src="img/play.svg" alt="">
+                </a>
+                <a class="vit_menu_item vit_listAbout">
+                    <img src="img/portrait.svg" alt="">
+                </a>
+            </div>
+
+
+            
+            <div class="vit_grids_grid-lenta">
+                <!-- photo -->
+                <ul class="vit_grid_lenta vit_grid_my vit_grid_lenta--active" id="vit_homeLentaMy">
+                    <li class="vit_lenta_item vit_myPhoto">
+                        <a href="/stPipl/percon.html" class="vit_lenta_link">
+                            <img src="img/userLogo.png" alt="">
+                        </a>
+                    </li>
+                    <li class="vit_lenta_item vit_myVideo">
+                        <a href="/stPipl/percon.html" class="vit_lenta_link">
+                            <img src="img/userLogo.png" alt="">
+                        </a>
+                    </li>
+                    <li class="vit_lenta_item vit_photoIsMy">
+                        <a href="/stPipl/percon.html" class="vit_lenta_link">
+                            <img src="img/userLogo.png" alt="">
+                        </a>
+                    </li>
+                    <li class="vit_lenta_item vit_myPhoto">
+                        <a href="/stPipl/percon.html" class="vit_lenta_link">
+                            <img src="img/userLogo.png" alt="">
+                        </a>
+                    </li>
+                    <li class="vit_lenta_item vit_myVideo">
+                        <a href="/stPipl/percon.html" class="vit_lenta_link">
+                            <img src="img/userLogo.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <!-- photo -->
+                <!-- video -->
+                <ul class="vit_grid_lenta vit_grid_play" id="vit_homeLentaPlay">
+                    <li class="vit_lenta_item vit_myPhoto">
+                        <button href="" class="vit_lenta_link">
+                            <img src="img/play-alt.svg" alt="">
+                        </button>
+                    </li>
+                    <li class="vit_lenta_item vit_myVideo">
+                        <button href="" class="vit_lenta_link">
+                            <img src="img/play-alt.svg" alt="">
+                        </button>
+                    </li>
+                    <li class="vit_lenta_item vit_photoIsMy">
+                        <button href="" class="vit_lenta_link">
+                            <img src="img/play-alt.svg" alt="">
+                        </button>
+                    </li>
+                    <li class="vit_lenta_item vit_myPhoto">
+                        <button href="" class="vit_lenta_link">
+                            <img src="img/play-alt.svg" alt="">
+                        </button>
+                    </li>
+                    <li class="vit_lenta_item vit_myVideo">
+                        <button href="" class="vit_lenta_link">
+                            <img src="img/play-alt.svg" alt="">
+                        </button>
+                    </li>
+                </ul>
+                <!-- video -->
+                <!-- otmet -->
+                <ul class="vit_grid_lenta vit_grid_about" id="vit_homeLentaAbout">
+                    <li class="vit_lenta_item vit_myPhoto">
+                        <button href="" class="vit_lenta_link">
+                            <img src="img/add.svg" alt="">
+                        </button>
+                    </li>
+                    <li class="vit_lenta_item vit_myVideo">
+                        <button href="" class="vit_lenta_link">
+                            <img src="img/add.svg" alt="">
+                        </button>
+                    </li>
+                    <li class="vit_lenta_item vit_photoIsMy">
+                        <button href="" class="vit_lenta_link">
+                            <img src="img/add.svg" alt="">
+                        </button>
+                    </li>
+                    <li class="vit_lenta_item vit_myPhoto">
+                        <button href="" class="vit_lenta_link">
+                            <img src="img/add.svg" alt="">
+                        </button>
+                    </li>
+                    <li class="vit_lenta_item vit_myVideo">
+                        <button href="" class="vit_lenta_link">
+                            <img src="img/add.svg" alt="">
+                        </button>
+                    </li>
+                </ul>
+                <!-- otmet -->
+            </div>
+        </section>
+
+        <footer class="vit_footer  dark_tem">
+            <div class="vit_container">
+                <ul class="vit_footer_menu">
+                    <li class="vit_footer_li">
+                        <a href="/pablicasion/pub.html" class="vit_footer_link ">
+                            <img src="img/home.svg" alt="" class="vit_f-home">
+                        </a>
+                    </li>
+                    <li class="vit_footer_li">
+                        <a href="/search/search.html" class="vit_footer_link vit_f-search">
+                            <img src="img/search.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="vit_footer_li">
+                        <a href="/video/vide.html" class="vit_footer_link vit_f-play">
+                            <img src="img/play-alt.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="vit_footer_li">
+                        <a href="/info/info.html" class="vit_footer_link vit_f-like">
+                            <img src="img/heart.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="vit_footer_li">
+                        <a href="/index.html" class="vit_footer_link vit_f-awaContact">
+                            <img src="img/userLogo.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
